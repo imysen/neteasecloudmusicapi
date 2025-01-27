@@ -1,0 +1,8 @@
+[build]
+  functions = "netlify/functions"  # 指定你的函数目录，通常为这个路径
+
+[[redirects]]
+  from = "/*"
+  to = "/index.js"
+  status = 200
+  
